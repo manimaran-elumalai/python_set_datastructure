@@ -27,3 +27,12 @@ if sample_set2.issubset(sample_set1):
 
 if sample_set1.issuperset(sample_set2):
     print("yes it is superset")
+
+print("***" * 10)
+
+string1 = "God is great"
+string2 = frozenset("aeiou")
+string3 = set(string1).difference(string2)
+print(string3)
+string4 = sorted(string3)
+print(string4)
